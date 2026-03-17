@@ -1,0 +1,17 @@
+{
+  "name": "devsense",
+  "version": "1.0.0",
+  "description": "Smart CLI tool for Docker, Node.js, Prisma troubleshooting",
+  "main": "index.js",
+  "bin": {
+    "devsense": "./bin/devsense.js"
+  },
+  "keywords": ["devtools","cli","docker","node","prisma"],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^14.0.3",
+    "inquirer": "^8",
+    "fs": "^0.0.1-security"
+  }
+}
